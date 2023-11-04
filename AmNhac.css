@@ -251,13 +251,13 @@ img {
 }
 .yourB {
   
-  top: 510px; /* hoặc position: absolute */
-  position: fixed;
+  top: 400px; /* hoặc position: absolute */
+  position: absolute;
   left: 20px; /* hoặc left: 20px; tùy thuộc vào vị trí bạn muốn đặt */
 }
 .yourT {
-  position: fixed; /* hoặc position: absolute */
-  bottom: 90px; /* Điều chỉnh giá trị phù hợp */
+  position: absolute; /* hoặc position: absolute */
+  bottom: 126px; /* Điều chỉnh giá trị phù hợp */
   right: 20px; /* Hoặc left: 20px tùy vào vị trí bạn muốn đặt */
   z-index: 999;
 }
