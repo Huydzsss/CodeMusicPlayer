@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css">
+    <link rel="stylesheet" href="AmNhac.css">
+    <link rel="icon" href="https://scontent.fhan5-11.fna.fbcdn.net/v/t39.30808-6/358460170_2007255962961755_4646367360774206001_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9onTM9Ij-P0AX-EXbJY&_nc_ht=scontent.fhan5-11.fna&oh=00_AfDoBC54UiOtSUimq0gwwD6H3CfjRLPEq8kh4kEfjZA58A&oe=654A5A61">
+    <title>Music player</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <button class="hdbtn" title="Previous">
+                <i class="fi fi-sr-arrow-small-left">
+                </i>
+            </button>
+            <h3 class="p-now">Nghe ngay những giai điệu vàng!</h3>
+            <br>
+            <h2 class="p-now">edit by chủ web :v</h2>
+            <button class="hdbtn" title="Playlist">
+                <i class="fi fi-sr-list">
+                </i>
+            </button>
+        </header>
+        <div class="player">
+            <div class="img-area">
+                <img src="https://i.ytimg.com/vi/DrY_K0mT-As/maxresdefault.jpg" alt="">
+            </div>
+            <div class="song-details">
+                <h1 class="name">animation</h1>
+                <h3 class="artist">google</h3>
+            </div>
+            <div class="audioC">
+                <div class="song-timer">
+                    <span class="current-time">0:00</span>
+                    <span class="max-duration">0:00</span>
+                </div>
+                <div class="progress-area">
+                    <div class="progress-bar">
+                        <audio src="./assets/music/song1.mp3" id="main-audio"></audio>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="btnC yourB" id="prev">
+                    <i class="fi fi-sr-rewind"></i>
+                </button>
+                <button class="play-pause btnC">
+                    <i class="fi fi-sr-play play"></i>
+                </button>
+                <button class="btnC yourT" id="next">
+                    <i class="fi fi-sr-forward"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="AmNhac.js"></script>
+</body>
+</html>
