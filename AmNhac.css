@@ -249,12 +249,12 @@ img {
 
 .yourB {
   
-  top: 400px;
-  position: absolute;
+  top: 470px;
+  position: fixed;
   left: 20px; 
 }
 .yourT {
-  position: absolute; 
+  position: fixed; 
   bottom:  126px; 
   right: 20px; 
   z-index: 999;
