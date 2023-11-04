@@ -247,15 +247,28 @@ img {
   }
 }
 
-.yourB {
-  
-  top: 400px; /* hoặc position: absolute */
+.yourB, .yourT {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ccc; /* Thay đổi màu sắc hoặc giá trị phù hợp */
+  background-color: #f0f0f0; /* Thay đổi màu sắc hoặc giá trị phù hợp */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  left: 20px; /* hoặc left: 20px; tùy thuộc vào vị trí bạn muốn đặt */
+  /* Cân chỉnh vị trí */
+  /* yourB - trái trên */
+  top: 10px;
+  left: 10px;
+  /* yourT - phải dưới */
+  bottom: 10px;
+  right: 10px;
 }
-.yourT {
-  position: absolute; /* hoặc position: absolute */
-  bottom: 126px; /* Điều chỉnh giá trị phù hợp */
-  right: 20px; /* Hoặc left: 20px tùy vào vị trí bạn muốn đặt */
-  z-index: 999;
+
+/* Thiết lập kích thước và kiểu dáng icon */
+.yourB i, .yourT i {
+  font-size: 20px;
+  /* Cân chỉnh màu sắc của icon */
+  color: #555; /* Thay đổi màu sắc hoặc giá trị phù hợp */
 }
