@@ -246,9 +246,7 @@ img {
     transform: rotate(359deg);
   }
 }
-#prev, #next {
-  width: 40px;
-}
+
 .yourB {
   
   top: 400px; /* hoặc position: absolute */
