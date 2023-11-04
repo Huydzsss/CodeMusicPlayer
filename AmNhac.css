@@ -247,15 +247,90 @@ img {
   }
 }
 
+/* CSS cho nút prev */
 .yourB {
-  
-  top: 470px;
-  position: fixed;
-  left: 20px; 
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #ccc; /* Thay đổi màu sắc hoặc giá trị phù hợp */
+  background-color: #f0f0f0; /* Thay đổi màu sắc hoặc giá trị phù hợp */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /* Cân chỉnh vị trí */
+  top: 340px;
+  left: 10px;
 }
+
+.yourB i {
+  font-size: 20px;
+  color: #555; /* Thay đổi màu sắc hoặc giá trị phù hợp */
+}
+
+/* Responsive - Điều chỉnh cho các kích thước màn hình khác nhau của nút prev */
+@media screen and (max-width: 768px) {
+  .yourB {
+    width: 30px;
+    height: 30px;
+  }
+
+  .yourB i {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .yourB {
+    width: 25px;
+    height: 25px;
+  }
+
+  .yourB i {
+    font-size: 14px;
+  }
+}
+
+/* CSS cho nút next */
 .yourT {
-  position: fixed; 
-  bottom:  126px; 
-  right: 20px; 
-  z-index: 999;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #ccc; /* Thay đổi màu sắc hoặc giá trị phù hợp */
+  background-color: #f0f0f0; /* Thay đổi màu sắc hoặc giá trị phù hợp */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /* Cân chỉnh vị trí */
+  bottom: 120px;
+  right: 10px;
+}
+
+.yourT i {
+  font-size: 20px;
+  color: #555; /* Thay đổi màu sắc hoặc giá trị phù hợp */
+}
+
+/* Responsive - Điều chỉnh cho các kích thước màn hình khác nhau của nút next */
+@media screen and (max-width: 768px) {
+  .yourT {
+    width: 60px;
+    height: 60px;
+  }
+
+  .yourT i {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .yourT {
+    width: 25px;
+    height: 25px;
+  }
+
+  .yourT i {
+    font-size: 14px;
+  }
 }

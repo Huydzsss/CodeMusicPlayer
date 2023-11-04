@@ -27,6 +27,12 @@ let allMusic = [
         artist: "Rick-Astley",
         img:"https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=1000&h=563&crop=1",
         src:"song3"
+    },
+    {
+        name:"Fadded",
+        artist: "Anh lân đi bộ (Alan Walker)",
+        img: "https://i.ytimg.com/vi/qdpXxGPqW-Y/maxresdefault.jpg",
+        src:"song4"
     }
 ];
 
