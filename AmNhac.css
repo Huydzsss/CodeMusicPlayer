@@ -67,7 +67,11 @@ header h3 {
   font-size: 14px;
   color: #86898c;
 }
-
+header h2 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #86898c;
+}
 .player {
   position: relative;
   margin-top: 2rem;

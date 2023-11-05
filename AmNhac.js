@@ -45,6 +45,9 @@ let allMusic = [
 let musicIndex = Math.floor(Math.random() * allMusic.length);
 let isMusicPaused = true;
 
+
+
+
 window.addEventListener("load", () => {
     loadMusic(musicIndex);
 });
