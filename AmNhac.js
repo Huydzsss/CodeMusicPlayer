@@ -33,6 +33,12 @@ let allMusic = [
         artist: "Anh lân đi bộ (Alan Walker)",
         img: "https://i.ytimg.com/vi/qdpXxGPqW-Y/maxresdefault.jpg",
         src:"song4"
+    },
+    {
+        name: "Senbonzakura (cover violin)",
+        artist: "Kurousa Cover",
+        img: "https://i.ytimg.com/vi/6-wEAeNcA_A/hqdefault.jpg",
+        src: "song5"
     }
 ];
 
