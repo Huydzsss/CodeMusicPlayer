@@ -227,7 +227,7 @@ img {
   background: linear-gradient(135deg, #bd2210, #e5550b);
   box-shadow: 10px 10px 12px #151618, -10px -10px 12px #222529, inset 4px 4px 8px #e5550b, inset -4px -4px 8px #bd2210;
   position: absolute;
-  top: 80%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

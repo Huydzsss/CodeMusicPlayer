@@ -39,6 +39,9 @@ let allMusic = [
         artist: "Kurousa Cover",
         img: "https://i.ytimg.com/vi/6-wEAeNcA_A/hqdefault.jpg",
         src: "song5"
+    },
+    {
+        
     }
 ];
 
