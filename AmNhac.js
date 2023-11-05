@@ -41,7 +41,10 @@ let allMusic = [
         src: "song5"
     },
     {
-        
+        name: "Sweet Talker (hay vkl)",
+        artist: "Kyng Tavii",
+        img:"https://i.ytimg.com/vi/xsZn8zQTzQI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCS1xbPpf3LMBZbuVBnWPtDJuuF7w",
+        src: "song6"
     }
 ];
 
