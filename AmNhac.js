@@ -85,6 +85,15 @@ function nextMusic() {
     loadMusic(musicIndex);
     playMusic();
 }
+mainAudio.addEventListener('ended', () => {
+    autoNext();
+})
+function autoNext() {
+    musicIndex++;
+    musicIndex >= allMusic.length ? musicIndex = 0 : musicIndex = musicIndex;
+    loadMusic(musicIndex);
+    playMusic();
+}
 
 playPauseBtn.addEventListener('click', () => {
     isMusicPaused ? playMusic() : pauseMusic();
@@ -140,3 +149,4 @@ if (!isNaN(songDuration) && isFinite(songDuration)) {
 } else {
     console.error('Invalid song duration.');
 }
+
