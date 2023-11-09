@@ -45,6 +45,12 @@ let allMusic = [
         artist: "Kyng Tavii",
         img:"https://i.ytimg.com/vi/xsZn8zQTzQI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCS1xbPpf3LMBZbuVBnWPtDJuuF7w",
         src: "song6"
+    }, 
+    {
+        name: "Alone",
+        artist: "Anh lân đi bộ (Alan Walker)",
+        img:"https://i.ytimg.com/vi/1-xGerv5FOk/hqdefault.jpg",
+        src: "song7"  
     }
 ];
 
